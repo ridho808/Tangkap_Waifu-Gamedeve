@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/ Crossing Field Sword Art Online 8Bit Remix.ogg-d24cf049a8e97f758f86f3edc073c762.oggstr"
+
+[deps]
+
+source_file="res://Assets/Muisc/ Crossing Field Sword Art Online 8Bit Remix.ogg"
+dest_files=[ "res://.import/ Crossing Field Sword Art Online 8Bit Remix.ogg-d24cf049a8e97f758f86f3edc073c762.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0

@@ -1,0 +1,20 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://Assets/Character/Najimi.webp" type="Texture" id=1]
+[ext_resource path="res://Scene/Najimi.gd" type="Script" id=2]
+
+[sub_resource type="RectangleShape2D" id=1]
+extents = Vector2( 9, 12 )
+
+[node name="Najimi" type="Area2D"]
+script = ExtResource( 2 )
+
+[node name="Sprite" type="Sprite" parent="."]
+scale = Vector2( 0.0860294, 0.0835254 )
+texture = ExtResource( 1 )
+region_enabled = true
+region_rect = Rect2( 54.0335, 16.9437, 425.767, 434.576 )
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2( 1, 4 )
+shape = SubResource( 1 )
